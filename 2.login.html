@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>登入範例</title>
+    </head>
+    <body>
+        <form method=post action="2.login.php">
+            帳號：<input type=text name="id"><br />
+            密碼：<input type=password name="pwd"><p></p>
+            <input type=submit value="登入"> <input type=reset value="清除">
+        </form>
+    </body>
+</html>
+
+<!--
+程式總結：
+1. 表單使用 POST 方法提交資料至 "2.login.php"。
+2. 表單欄位包含：
+   - 一個文字輸入框供使用者輸入帳號 (name="id")。
+   - 一個密碼輸入框供輸入密碼 (name="pwd")。
+3. 提供兩個按鈕：
+   - "登入"：送出表單資料。
+   - "清除"：清除輸入的資料。
+4. 頁面使用 UTF-8 編碼，標題為「登入範例」。
+-->
